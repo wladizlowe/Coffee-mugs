@@ -1,0 +1,623 @@
+
+body{
+    background-color:  rgba(255, 250, 253, 0.8);
+    width: 100%;
+    height: 100%;
+    font-family: 'Karla',
+    sans-serif;
+}
+.main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    background: #FFFFFF;
+    padding-top: 0px;
+
+}
+.hat{
+    width: 940px;
+    height: 18px;
+    position: relative;
+    justify-content: center;
+    vertical-align: middle;
+    padding: 30px 250px;
+}
+
+.logo{
+    width: 112px;
+    vertical-align: middle;
+    margin-right: 100px;
+}
+
+.item, .item-cart{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    display: inline;
+    margin-left: 30px;
+    
+}
+
+.icon{
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.zero{
+    height: 20px;
+    width: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background: #1D1F2E;
+    border-radius: 9px;
+    text-align: center;
+    display:inline-block;
+}
+
+.item-cart{
+    margin-left: 50px;
+}
+
+.redline{
+    width: 92px;
+    height: 2px;
+    background: rgba(162, 95, 75, 0.2);
+    display: block;
+    margin-left: 835px;
+    margin-top: 4px;
+
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #050827;
+    position: relative;
+}
+
+.best{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 160px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.cofee-mugs{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 187px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 257px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.explore{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    width: 230px;
+    background-color: #FFFFFF;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 335px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.cup-block{
+    margin-top: 120px;
+   
+}
+
+.title-cup-block{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    color: #1D1F2E;
+    width: 560px;
+    margin-bottom: 15px;
+    justify-content: center;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.text-cup-block{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(29, 31, 46, 0.7);
+    width: 658px;
+    margin-bottom: 20px;
+    justify-content: center;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.full-story{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #A25F4B;
+    margin-bottom: 0px;
+}
+.line{
+    width: 133px;
+    height: 2px;
+    background: rgba(162, 95, 75, 0.2);
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    
+}
+
+.title-cup{
+    margin-bottom: 100px;
+}
+
+.cups{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.pink-ceramic, .golden-ceramic{
+    width: 480px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    justify-content: center;
+
+}
+
+.pink-premium, .golden-premium, .red-love, .black-tea, .essential-mug, .winter-style, .ceramic-tea, .no-handle, .espresso, .pink-mug, .summer{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #1D1F2E;
+    margin-top: 35px;
+    margin-bottom: 5px;
+}
+
+.pink-price, .golden-price, .essential-price, .winter-price, .ceramic-price, .no-handle-price, .espresso-price, .pink-premium-price, .summer-price{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(29, 31, 46, 0.7);
+    display: block;
+    padding: 0px;
+}
+.golden-price{
+    text-decoration-line: line-through;
+    display: inline-block;
+    margin-left: 230px;
+}
+
+.essential-price {
+    text-decoration-line: line-through;
+}
+
+.red-price{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(29, 31, 46, 0.7);
+    display: block;
+    padding: 0px;
+    margin-left: 70px;
+}
+
+.black-price{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(29, 31, 46, 0.7);
+    display: block;
+    padding: 0px;
+    text-decoration-line: line-through;
+    margin-left: 70px;
+}
+.golden-price-discount{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    text-align: center;
+    color: #A25F4B;
+    display: inline-block;
+    position: absolute;
+    margin-left: -165px;
+    margin-top: -2px;
+}
+
+.red-price-discount{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    text-align: center;
+    color: #A25F4B;
+    display: inline-block;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: -30px;
+}
+
+.black-price-discount{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    text-align: center;
+    color: #A25F4B;
+    display: inline-block;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: -30px;
+}
+
+.more-products{
+    
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.first-row, .second-row, .third-row{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.first-row-line, .second-row-line, .third-row-line{
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+}
+
+.two-mugs{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+.pictures{
+    display: flex;
+    height: 280px;
+    margin-right: 40px;
+}
+
+.notebook{
+    display: block;
+}
+
+.hands{
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.tea-cup{
+    display: block;
+    margin-left: 20px;
+}
+
+.mugs-text{
+    margin-left: 40px;
+
+}
+
+.premium{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    margin-bottom: 15px;
+    padding: 0px;
+}
+
+.get-our{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #1D1F2E;
+    width: 270px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    padding: 0px;
+}
+.two-mugs-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(29, 31, 46, 0.7);
+    width: 320px;
+    margin-bottom: 15px;
+    padding: 0px;
+}
+.shop{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    width: 173px;
+    height: 36px;
+    padding-top: 12px;
+    background-color: black;
+    margin-top: 0px;
+}
+
+.big-image{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.behind-mugs{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.blocks{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.block-one{
+    width: 300px;
+    margin: 0 10px;
+}
+
+.block-two{
+    width: 300px;
+    margin: 0 10px;
+}
+
+.block-three{
+    width: 300px;
+    margin: 0 10px;
+}
+.title, .title-cup, .title-footer{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    margin-top: 0px;
+}
+
+.linage{
+    width: 30px;
+    height: 1px;
+    background: #ECECED;
+    border-radius: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #1D1F2E;
+}
+
+.text-description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(29, 31, 46, 0.7);
+}
+
+.text-data{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+
+.subscription{
+    width: 1380px;
+    height: 330px;
+    background-color: #050827;
+    margin: 0px 30px 100px 30px;
+
+}
+
+.title-footer{
+    color: #FFFFFF;
+    padding-top: 80px;
+    margin-bottom: 15px;
+}
+
+.podval{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    height: 55px;
+}
+
+.email{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 350px;
+    border: 1px solid #2F303E;
+    margin-right: 10px;
+    vertical-align: middle;
+    padding-top: 6px;
+}
+
+.subscribe{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000000;
+    width: 130px;
+    background-color: #FFFFFF;
+    vertical-align: middle;
+    padding-top: 6px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.rights{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.3);
+}
+
+.list-item, .nav-desc{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.7);
+    margin-bottom: 10px;
+}
+
+.nav-desc{
+    width: 260px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.nav-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    margin-bottom: 20px;
+}
+
+.nav-email{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    color: #1D1F2E;
+    margin-bottom: 55px;
+}
+
+.navigation{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contact-us{
+    margin-left: 20px;
+}
+
+.nav-desc{
+    margin-right: 20px;
+}
+
+.list-type{
+    list-style-type: none;
+}
